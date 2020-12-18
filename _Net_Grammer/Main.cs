@@ -7,7 +7,7 @@ namespace _Net_Grammer
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello C# with easyJin");
-            ArrayGrammerExam();
+            StringGrammerExam();
         }
 
         public static void ConstGramerExam()
@@ -18,6 +18,11 @@ namespace _Net_Grammer
         {
             ArrayGrammer arrayGrammer = new ArrayGrammer();
             arrayGrammer.PrintConsole();
+        }
+        public static void StringGrammerExam()
+        {
+            StringGrammer stringGrammer = new StringGrammer();
+            stringGrammer.PrintConsole();
         }
 
     }
