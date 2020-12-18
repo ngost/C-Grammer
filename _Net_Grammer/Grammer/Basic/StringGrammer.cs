@@ -1,7 +1,7 @@
 ﻿using System;
 namespace _Net_Grammer.Grammer
 {
-    public class StringGrammer
+    public class StringGrammer : GrammerInterface
     {
         string string_a, string_b;
         char dot;

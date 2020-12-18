@@ -1,14 +1,14 @@
 ﻿using System;
 namespace _Net_Grammer.Grammer
 {
-    public class ArrayGrammer
+    public class ArrayGrammer : GrammerInterface
     {
         //array init type
         //1
         int[] numbers_type1 = new int[5];
         //2
         int[] numbers_type2 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-        
+
         public ArrayGrammer()
         {
             //1 init
@@ -22,6 +22,7 @@ namespace _Net_Grammer.Grammer
                 }
             }
             temp_index = 0;
+
         }
 
         public void PrintConsole()
