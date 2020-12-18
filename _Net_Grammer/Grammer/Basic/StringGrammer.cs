@@ -12,8 +12,6 @@ namespace _Net_Grammer.Grammer.Basic
             string_a = "Now you";
             string_b = " See me";
             dot = '.';
-
-
         }
 
         public void PrintConsole()

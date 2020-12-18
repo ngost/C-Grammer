@@ -42,6 +42,11 @@ namespace _Net_Grammer.Grammer.etcs
                 case (int)Example_Code.Enum_Grammer:
                     grammer = new EnumGrammer();
                     break;
+
+                case (int)Example_Code.Loop_Grammer:
+                    grammer = new LoopGrammer();
+                    break;
+
                 default:
                     //grammer null
                     System.Console.WriteLine("Not exist example. Please using another Example");

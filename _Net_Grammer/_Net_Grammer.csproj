@@ -42,6 +42,7 @@
     <Compile Include="Grammer\Basic\StringBuilderGrammer.cs" />
     <Compile Include="Grammer\Basic\EnumGrammer.cs" />
     <Compile Include="Grammer\etcs\Example_Code.cs" />
+    <Compile Include="Grammer\Basic\LoopGrammer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />
