@@ -3,7 +3,7 @@ namespace _Net_Grammer.Grammer
 {
     public class ConstGrammer
     {
-        //클래스 변수
+        //클래스 변수 1
 
         public const string c_str = "This is Const String";
         public readonly string r_str = "This is onl Readable String";

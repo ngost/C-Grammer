@@ -24,6 +24,6 @@ namespace _Net_Grammer
             StringGrammer stringGrammer = new StringGrammer();
             stringGrammer.PrintConsole();
         }
-
+        
     }
 }
