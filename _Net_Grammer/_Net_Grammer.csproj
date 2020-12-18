@@ -39,6 +39,9 @@
     <Compile Include="Grammer\Basic\StringGrammer.cs" />
     <Compile Include="Grammer\Interface\GrammerInterface.cs" />
     <Compile Include="Grammer\etcs\Exams.cs" />
+    <Compile Include="Grammer\Basic\StringBuilderGrammer.cs" />
+    <Compile Include="Grammer\Basic\EnumGrammer.cs" />
+    <Compile Include="Grammer\etcs\Example_Code.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />

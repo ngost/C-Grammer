@@ -1,27 +1,46 @@
 ﻿using System;
-namespace _Net_Grammer.Grammer
+using _Net_Grammer.Grammer.Basic;
+using _Net_Grammer.Grammer.etcs;
+namespace _Net_Grammer.Grammer.etcs
 {
+    
+
     public class Exams
     {
-        //class values
-        public const int Const_Grammer = 1;
-        public const int String_Grammer = 2;
-        public const int Array_Grammer = 3;
+        ////class values
+        //public const int Const_Grammer = 1;
+        //public const int Array_Grammer = 2;
+        //public const int String_Grammer = 3;
+        //public const int StringBuilder_Grammer = 4;
+
+        // changed enum
+        
 
         //instants function
         public void RunExample(int grammer_name)
         {
+            
             GrammerInterface? grammer = null;
             switch (grammer_name)
             {
-                case Const_Grammer :
+                case (int)Example_Code.Const_Grammer :
                     grammer = new ConstGrammer();
                     break;
-                case String_Grammer:
+
+                case (int)Example_Code.Array_Grammer:
+                    grammer = new ArrayGrammer();
+                    break;
+
+                case (int)Example_Code.String_Grammer:
                     grammer = new StringGrammer();
                     break;
-                case Array_Grammer:
-                    grammer = new ArrayGrammer();
+
+                case (int)Example_Code.StringBuilder_Grammer:
+                    grammer = new StringBuilderGrammer();
+                    break;
+
+                case (int)Example_Code.Enum_Grammer:
+                    grammer = new EnumGrammer();
                     break;
                 default:
                     //grammer null

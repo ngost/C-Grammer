@@ -1,5 +1,5 @@
 ﻿using System;
-namespace _Net_Grammer.Grammer
+namespace _Net_Grammer.Grammer.Basic
 {
     public class ConstGrammer : GrammerInterface
     {
