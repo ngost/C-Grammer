@@ -7,12 +7,17 @@ namespace _Net_Grammer
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello C# with easyJin");
-            ConstGramerExam();
+            ArrayGrammerExam();
         }
 
         public static void ConstGramerExam()
         {
             ConstGrammer grammerClass = new ConstGrammer();
+        }
+        public static void ArrayGrammerExam()
+        {
+            ArrayGrammer arrayGrammer = new ArrayGrammer();
+            arrayGrammer.PrintConsole();
         }
 
     }

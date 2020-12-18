@@ -33,6 +33,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Grammer\ConstGrammer.cs" />
+    <Compile Include="Grammer\ArrayGrammer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />
