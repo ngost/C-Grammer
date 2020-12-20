@@ -13,7 +13,7 @@ namespace _Net_Grammer.Grammer.Basic
             {
                 stringBuilder.Append(num.ToString() + ", ");
             }
-            stringBuilder.Remove(stringBuilder.Length - 2,2);
+            stringBuilder.Remove(stringBuilder.Length - 3,2);
         }
         public void PrintConsole()
         {

@@ -47,6 +47,10 @@ namespace _Net_Grammer.Grammer.etcs
                     grammer = new LoopGrammer();
                     break;
 
+                case (int)Example_Code.IEnumerator_Grammer:
+                    grammer = new IEnumeratorGrammer();
+                    break;
+
                 default:
                     //grammer null
                     System.Console.WriteLine("Not exist example. Please using another Example");

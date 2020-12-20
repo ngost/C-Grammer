@@ -8,6 +8,7 @@ namespace _Net_Grammer.Grammer.etcs
         String_Grammer,
         StringBuilder_Grammer,
         Enum_Grammer,
-        Loop_Grammer
+        Loop_Grammer,
+        IEnumerator_Grammer
     }
 }
