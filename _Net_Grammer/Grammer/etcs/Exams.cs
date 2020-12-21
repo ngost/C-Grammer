@@ -14,13 +14,13 @@ namespace _Net_Grammer.Grammer.etcs
         //public const int StringBuilder_Grammer = 4;
 
         // changed enum
-        
 
+        public GrammerInterface? grammer;
         //instants function
         public void RunExample(int grammer_name)
         {
             
-            GrammerInterface? grammer = null;
+            grammer = null;
             switch (grammer_name)
             {
                 case (int)Example_Code.Const_Grammer :
@@ -49,6 +49,10 @@ namespace _Net_Grammer.Grammer.etcs
 
                 case (int)Example_Code.IEnumerator_Grammer:
                     grammer = new IEnumeratorGrammer();
+                    break;
+
+                case (int)Example_Code.PersonGrammer:
+                    grammer = new PersonGrammer();
                     break;
 
                 default:

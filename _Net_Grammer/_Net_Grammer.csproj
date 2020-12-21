@@ -44,6 +44,7 @@
     <Compile Include="Grammer\etcs\Example_Code.cs" />
     <Compile Include="Grammer\Basic\LoopGrammer.cs" />
     <Compile Include="Grammer\Basic\IEnumeratorGrammer.cs" />
+    <Compile Include="Grammer\Basic\PersonGrammer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />

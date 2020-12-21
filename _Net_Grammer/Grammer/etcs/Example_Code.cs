@@ -9,6 +9,7 @@ namespace _Net_Grammer.Grammer.etcs
         StringBuilder_Grammer,
         Enum_Grammer,
         Loop_Grammer,
-        IEnumerator_Grammer
+        IEnumerator_Grammer,
+        PersonGrammer
     }
 }
