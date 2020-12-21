@@ -11,7 +11,7 @@ namespace _Net_Grammer
 
             //Run Some Examples...
             exams.RunExample((int)Example_Code.PersonGrammer);
-            
+
         }
     }
 }
