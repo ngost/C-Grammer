@@ -47,6 +47,7 @@
     <Compile Include="Grammer\Basic\PersonGrammer.cs" />
     <Compile Include="Grammer\Basic\ButtonGrammer.cs" />
     <Compile Include="Grammer\etcs\Exam_For_Button.cs" />
+    <Compile Include="Grammer\Basic\PreprocessorGrammer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />

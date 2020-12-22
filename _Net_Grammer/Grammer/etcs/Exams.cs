@@ -51,8 +51,12 @@ namespace _Net_Grammer.Grammer.etcs
                     grammer = new IEnumeratorGrammer();
                     break;
 
-                case (int)Example_Code.PersonGrammer:
+                case (int)Example_Code.Person_Grammer:
                     grammer = new PersonGrammer();
+                    break;
+
+                case (int)Example_Code.PreProcessor_Grammer:
+                    grammer = new PreprocessorGrammer();
                     break;
 
                 default:

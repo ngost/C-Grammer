@@ -10,6 +10,7 @@ namespace _Net_Grammer.Grammer.etcs
         Enum_Grammer,
         Loop_Grammer,
         IEnumerator_Grammer,
-        PersonGrammer
+        Person_Grammer,
+        PreProcessor_Grammer
     }
 }
