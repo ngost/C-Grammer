@@ -12,6 +12,7 @@ namespace _Net_Grammer.Grammer.etcs
         IEnumerator_Grammer,
         Person_Grammer,
         PreProcessor_Grammer,
-        Indexer_Grammer
+        Indexer_Grammer,
+        Inheritance_Grammer
     }
 }

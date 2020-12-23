@@ -61,7 +61,9 @@ namespace _Net_Grammer.Grammer.etcs
                 case (int)Example_Code.Indexer_Grammer:
                     grammer = new IndexerGrammer();
                     break;
-
+                case (int)Example_Code.Inheritance_Grammer:
+                    grammer = new InheritanceGrammer();
+                    break;
                 default:
                     //grammer null
                     System.Console.WriteLine("Not exist example. Please using another Example");

@@ -10,7 +10,7 @@ namespace _Net_Grammer
             Exams exams = new Exams();
 
             //Run Some Examples...
-            exams.RunExample((int)Example_Code.Indexer_Grammer);
+            exams.RunExample((int)Example_Code.Inheritance_Grammer);
 
         }
     }
