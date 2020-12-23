@@ -11,6 +11,7 @@ namespace _Net_Grammer.Grammer.etcs
         Loop_Grammer,
         IEnumerator_Grammer,
         Person_Grammer,
-        PreProcessor_Grammer
+        PreProcessor_Grammer,
+        Indexer_Grammer
     }
 }

@@ -58,6 +58,9 @@ namespace _Net_Grammer.Grammer.etcs
                 case (int)Example_Code.PreProcessor_Grammer:
                     grammer = new PreprocessorGrammer();
                     break;
+                case (int)Example_Code.Indexer_Grammer:
+                    grammer = new IndexerGrammer();
+                    break;
 
                 default:
                     //grammer null
