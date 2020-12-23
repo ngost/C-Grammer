@@ -64,6 +64,9 @@ namespace _Net_Grammer.Grammer.etcs
                 case (int)Example_Code.Inheritance_Grammer:
                     grammer = new InheritanceGrammer();
                     break;
+                case (int)Example_Code.Generic_Grammer:
+                    grammer = new GenericGrammer();
+                    break;
                 default:
                     //grammer null
                     System.Console.WriteLine("Not exist example. Please using another Example");

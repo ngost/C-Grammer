@@ -50,6 +50,7 @@
     <Compile Include="Grammer\Basic\PreprocessorGrammer.cs" />
     <Compile Include="Grammer\Basic\IndexerGrammer.cs" />
     <Compile Include="Grammer\Basic\InheritanceGrammer.cs" />
+    <Compile Include="Grammer\Basic\GenericGrammer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />
