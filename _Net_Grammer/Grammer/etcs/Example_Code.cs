@@ -14,6 +14,7 @@ namespace _Net_Grammer.Grammer.etcs
         PreProcessor_Grammer,
         Indexer_Grammer,
         Inheritance_Grammer,
-        Generic_Grammer
+        Generic_Grammer,
+        Interface_Grammer
     }
 }

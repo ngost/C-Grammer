@@ -51,6 +51,8 @@
     <Compile Include="Grammer\Basic\IndexerGrammer.cs" />
     <Compile Include="Grammer\Basic\InheritanceGrammer.cs" />
     <Compile Include="Grammer\Basic\GenericGrammer.cs" />
+    <Compile Include="Grammer\Interface\IMyComparable.cs" />
+    <Compile Include="Grammer\Basic\InterfaceGrammer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />
