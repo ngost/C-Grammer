@@ -53,6 +53,7 @@
     <Compile Include="Grammer\Basic\GenericGrammer.cs" />
     <Compile Include="Grammer\Interface\IMyComparable.cs" />
     <Compile Include="Grammer\Basic\InterfaceGrammer.cs" />
+    <Compile Include="Grammer\Basic\DelegateGrammer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />
