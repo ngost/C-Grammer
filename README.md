@@ -7,5 +7,5 @@ This project is junior code about c# grammers (array, const, readonly, etc ..)
 # Require
 greater c# 8.0 (Because of Nullable type grammer)
 
-# Made
+# Maded
 Lee jinyoung
