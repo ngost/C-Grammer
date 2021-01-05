@@ -10,7 +10,7 @@ namespace _Net_Grammer.Grammer.Basic
         public DelegateGrammer()
         {
             //m_delegate = new StringToIntDelegate(StringToInt);
-            m_delegate = StringToInt;
+
         }
 
         public int StringToInt(string str)
@@ -18,6 +18,10 @@ namespace _Net_Grammer.Grammer.Basic
             return int.Parse(str);
         }
 
+        public int StringToIntmultiply100(string str)
+        {
+            return int.Parse(str) * 100;
+        }
 
         
 
@@ -29,10 +33,16 @@ namespace _Net_Grammer.Grammer.Basic
         }
 
 
+
+
         public void PrintConsole()
         {
             //
+            m_delegate = StringToInt;
             Console.WriteLine("string parse result : " + ToInt(m_delegate,"90000"));
+
+            m_delegate = StringToIntmultiply100;
+            Console.WriteLine("string parse * 100 result : " + ToInt(m_delegate, "90000"));
         }
     }
 }

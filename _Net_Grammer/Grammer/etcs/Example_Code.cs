@@ -16,6 +16,8 @@ namespace _Net_Grammer.Grammer.etcs
         Inheritance_Grammer,
         Generic_Grammer,
         Interface_Grammer,
-        Delegate_Grammer
+        Delegate_Grammer,
+        Form_Grammer,
+        Lambda_Grammer
     }
 }

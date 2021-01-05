@@ -73,6 +73,12 @@ namespace _Net_Grammer.Grammer.etcs
                 case (int)Example_Code.Delegate_Grammer:
                     grammer = new DelegateGrammer();
                     break;
+                case (int)Example_Code.Form_Grammer:
+                    grammer = new FormGrammer();
+                    break;
+                case (int)Example_Code.Lambda_Grammer:
+                    grammer = new LambdaGrammer();
+                    break;
                 default:
                     //grammer null
                     System.Console.WriteLine("Not exist example. Please using another Example");
