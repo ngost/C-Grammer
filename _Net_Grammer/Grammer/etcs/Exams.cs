@@ -79,6 +79,9 @@ namespace _Net_Grammer.Grammer.etcs
                 case (int)Example_Code.Lambda_Grammer:
                     grammer = new LambdaGrammer();
                     break;
+                case (int)Example_Code.Anonymous_Grammer:
+                    grammer = new AnonymousGrammer();
+                    break;
                 default:
                     //grammer null
                     System.Console.WriteLine("Not exist example. Please using another Example");
