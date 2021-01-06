@@ -57,6 +57,9 @@
     <Compile Include="Grammer\Basic\FormGrammer.cs" />
     <Compile Include="Grammer\Basic\LambdaGrammer.cs" />
     <Compile Include="Grammer\Basic\AnonymousGrammer.cs" />
+    <Compile Include="Grammer\Basic\ExtendMethodGrammer.cs" />
+    <Compile Include="Grammer\Basic\StaticClass.cs" />
+    <Compile Include="Grammer\etcs\CaseEnumeration.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />
