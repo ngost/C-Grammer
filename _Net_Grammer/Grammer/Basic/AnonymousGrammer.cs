@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Linq;
+using _Net_Grammer.Grammer.etcs;
+
 namespace _Net_Grammer.Grammer.Basic
 {
     public class AnonymousGrammer : GrammerInterface
@@ -21,11 +24,6 @@ namespace _Net_Grammer.Grammer.Basic
             var People = new { Name = "이진영", Age = 30 };
             this.name = People.Name;
             this.age = People.Age;
-
-
-
-
-
         }
 
         public void PrintConsole()
@@ -41,12 +39,26 @@ namespace _Net_Grammer.Grammer.Basic
         {
             //step1 init anonymouse value
 
-            var Infos = new[] {
+            var Datas = new[] {
                 new {Name = "LeeJinYoung", phone = "010-8230-0004", gender = "man"},
                 new {Name = "JinMinGyong", phone = "010-6786-6030", gender = "man"},
                 new {Name = "KimJaYoung", phone = "010-2167-7182", gender = "woman"}
             };
+            //Linq lib을 반드시 사용해야 where, select 등을 사용할 수 있습니다.
+            //아래 식은 익명 타입 + 람다식 + Linq 사용 예제
 
+            var info_list = Datas.Where(value => value.gender.Equals("man")).Select(value => new {value.Name, value.phone});
+
+            Console.WriteLine("--- Anonymouse_Linq_Test ---");
+            int i = 0;
+            foreach (var query_info in info_list)
+            {
+                i++;
+                Console.Write(i + "###------------------------\n");
+                //앞선 확장 메소드 응용
+                Console.WriteLine(i + "### Name : "+query_info.Name.ToString().CaseConverter(CaseEnumeration.UPPER_CASE_MODE));
+                Console.WriteLine(i + "### Phone : " + query_info.phone.ToString().CaseConverter(CaseEnumeration.UPPER_CASE_MODE));
+            }
         }
     }
 }

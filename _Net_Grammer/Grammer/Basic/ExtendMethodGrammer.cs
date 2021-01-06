@@ -7,7 +7,8 @@ namespace _Net_Grammer.Grammer.Basic
 
         public ExtendMethodGrammer()
         {
-
+            //extend method는 반드시 static class에 작성되어야 합니다.
+            //Static class를 따로 만들어서 확장 메소드를 정의하고, 불러다 사용함.
         }
 
         public void PrintConsole()
