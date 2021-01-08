@@ -85,6 +85,9 @@ namespace _Net_Grammer.Grammer.etcs
                 case (int)Example_Code.ExtendMehtod_Grammer:
                     grammer = new ExtendMethodGrammer();
                     break;
+                case (int)Example_Code.Dynamic_Grammer:
+                    grammer = new DynamicGrammer();
+                    break;
                 default:
                     //grammer null
                     System.Console.WriteLine("Not exist example. Please using another Example");

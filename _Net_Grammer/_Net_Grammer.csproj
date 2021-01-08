@@ -30,6 +30,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -60,12 +61,17 @@
     <Compile Include="Grammer\Basic\ExtendMethodGrammer.cs" />
     <Compile Include="Grammer\Basic\StaticClass.cs" />
     <Compile Include="Grammer\etcs\CaseEnumeration.cs" />
+    <Compile Include="Grammer\Basic\PartialGrammer.cs" />
+    <Compile Include="Grammer\Basic\DynamicGrammer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />
     <Folder Include="Grammer\Basic\" />
     <Folder Include="Grammer\Interface\" />
     <Folder Include="Grammer\etcs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

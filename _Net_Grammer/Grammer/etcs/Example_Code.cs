@@ -20,6 +20,7 @@ namespace _Net_Grammer.Grammer.etcs
         Form_Grammer,
         Lambda_Grammer,
         Anonymous_Grammer,
-        ExtendMehtod_Grammer
+        ExtendMehtod_Grammer,
+        Dynamic_Grammer
     }
 }
