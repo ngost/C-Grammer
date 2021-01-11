@@ -1,6 +1,6 @@
 ﻿using System;
 using _Net_Grammer.Grammer.Basic;
-using _Net_Grammer.Grammer.etcs;
+using _Net_Grammer.Grammer.enums;
 namespace _Net_Grammer.Grammer.etcs
 {
     
@@ -87,6 +87,9 @@ namespace _Net_Grammer.Grammer.etcs
                     break;
                 case (int)Example_Code.Dynamic_Grammer:
                     grammer = new DynamicGrammer();
+                    break;
+                case (int)Example_Code.Await_Grammer:
+                    grammer = new AwaitGrammer();
                     break;
                 default:
                     //grammer null

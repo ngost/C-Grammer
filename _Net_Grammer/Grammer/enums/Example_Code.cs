@@ -1,5 +1,5 @@
 ﻿using System;
-namespace _Net_Grammer.Grammer.etcs
+namespace _Net_Grammer.Grammer.enums
 {
     public enum Example_Code
     {
@@ -21,6 +21,7 @@ namespace _Net_Grammer.Grammer.etcs
         Lambda_Grammer,
         Anonymous_Grammer,
         ExtendMehtod_Grammer,
-        Dynamic_Grammer
+        Dynamic_Grammer,
+        Await_Grammer
     }
 }

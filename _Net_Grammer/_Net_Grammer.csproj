@@ -42,7 +42,6 @@
     <Compile Include="Grammer\etcs\Exams.cs" />
     <Compile Include="Grammer\Basic\StringBuilderGrammer.cs" />
     <Compile Include="Grammer\Basic\EnumGrammer.cs" />
-    <Compile Include="Grammer\etcs\Example_Code.cs" />
     <Compile Include="Grammer\Basic\LoopGrammer.cs" />
     <Compile Include="Grammer\Basic\IEnumeratorGrammer.cs" />
     <Compile Include="Grammer\Basic\PersonGrammer.cs" />
@@ -59,16 +58,19 @@
     <Compile Include="Grammer\Basic\LambdaGrammer.cs" />
     <Compile Include="Grammer\Basic\AnonymousGrammer.cs" />
     <Compile Include="Grammer\Basic\ExtendMethodGrammer.cs" />
-    <Compile Include="Grammer\Basic\StaticClass.cs" />
     <Compile Include="Grammer\etcs\CaseEnumeration.cs" />
     <Compile Include="Grammer\Basic\PartialGrammer.cs" />
     <Compile Include="Grammer\Basic\DynamicGrammer.cs" />
+    <Compile Include="Grammer\enums\Example_Code.cs" />
+    <Compile Include="Grammer\etcs\StaticClass.cs" />
+    <Compile Include="Grammer\Basic\AwaitGrammer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Grammer\" />
     <Folder Include="Grammer\Basic\" />
     <Folder Include="Grammer\Interface\" />
     <Folder Include="Grammer\etcs\" />
+    <Folder Include="Grammer\enums\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

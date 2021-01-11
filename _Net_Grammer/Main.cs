@@ -1,5 +1,7 @@
 ﻿using System;
+using _Net_Grammer.Grammer.enums;
 using _Net_Grammer.Grammer.etcs;
+
 namespace _Net_Grammer
 {
     class MainClass
@@ -10,7 +12,7 @@ namespace _Net_Grammer
             Exams exams = new Exams();
 
             //Run Some Examples...
-            exams.RunExample((int)Example_Code.Dynamic_Grammer);
+            exams.RunExample((int)Example_Code.Await_Grammer);
 
         }
     }
